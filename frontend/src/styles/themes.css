@@ -1,0 +1,32 @@
+/* Clean Theme Definitions Inspired by Minimalist AI Interfaces */
+:root {
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f9fafb;
+  --color-bg-surface: #ffffff;
+  --color-border: #e5e7eb;
+  --color-text-primary: #111827;
+  --color-text-secondary: #4b5563;
+  --color-text-muted: #6b7280;
+  --color-accent: #2563eb;
+  --color-accent-subtle: #eff6ff;
+}
+
+.dark {
+  --color-bg-primary: #121214;
+  --color-bg-secondary: #1a1a1e;
+  --color-bg-surface: #202026;
+  --color-border: #2e2e38;
+  --color-text-primary: #ececf1;
+  --color-text-secondary: #c5c5d2;
+  --color-text-muted: #8e8ea0;
+  --color-accent: #3b82f6;
+  --color-accent-subtle: #1e293b;
+}
+
+body {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}

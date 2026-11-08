@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: hindi_rag_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=production
+      - LOG_LEVEL=INFO
+      - EMBEDDING_MODEL=BAAI/bge-m3
+      - EMBEDDING_DEVICE=cpu
+      - GEMINI_MODEL=gemini-2.5-flash
+      - HF_HOME=/models_cache
+      - TORCH_HOME=/models_cache
+      - CHROMA_PERSIST_DIR=/app/storage/chroma_db
+      - CORS_ORIGINS=http://localhost:5173,http://localhost:3000,http://localhost:80,http://127.0.0.1:5173,http://127.0.0.1:80
+    env_file:
+      - ./backend/.env
+    volumes:
+      # Persistent vector database store (78 chunks)
+      - ./backend/storage/chroma_db:/app/storage/chroma_db
+      - ./backend/data:/app/data
+      # Persistent volume for HuggingFace model cache (prevents 2.2 GB redownload)
+      - hf_model_cache:/models_cache
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 45s
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        - VITE_API_BASE_URL=http://localhost:8000
+    container_name: hindi_rag_frontend
+    ports:
+      - "5173:80"
+    environment:
+      - VITE_API_BASE_URL=http://localhost:8000
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:80/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  # Named volume persists Hugging Face BGE-M3 weights across container rebuilds
+  hf_model_cache:
+    driver: local

@@ -1,0 +1,214 @@
+{
+  "model_name": "BAAI/bge-m3",
+  "embedding_dim": 1024,
+  "device": "cpu",
+  "model_load_time_sec": 8.67,
+  "indexing_time_sec": 64.44,
+  "total_chunks_indexed": 78,
+  "results": [
+    {
+      "id": 1,
+      "lang": "Hindi",
+      "query": "SLV-III ने किस उपग्रह को कक्षा में स्थापित किया और किस वर्ष?",
+      "latency_ms": 360.49,
+      "top_hit": {
+        "chunk_id": "doc_p8_c3",
+        "page": 8,
+        "section": "6 · इसरो के वर्ष और SLV-III",
+        "content_type": "narrative",
+        "score": 0.6073,
+        "snippet": "अगले वर्ष जब मिशन सफल हुआ, तो धवन पीछे हट गए और श्रेय कलाम को लेने दिया। यह विरोधाभास — एक नेता जो विफलता को आत्मसात करता है और सफलता को बाँटता है — भ"
+      },
+      "all_hits": [
+        {
+          "chunk_id": "doc_p8_c3",
+          "page": 8,
+          "section": "6 · इसरो के वर्ष और SLV-III",
+          "score": 0.6073
+        },
+        {
+          "chunk_id": "doc_p17_c2",
+          "page": 17,
+          "section": "15 · जीवन-रेखा (टाइमलाइन)",
+          "score": 0.5915
+        },
+        {
+          "chunk_id": "doc_p8_c1",
+          "page": 8,
+          "section": "6 · इसरो के वर्ष और SLV-III",
+          "score": 0.5764
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "lang": "Hindi",
+      "query": "कलाम को भारत रत्न किस वर्ष प्राप्त हुआ?",
+      "latency_ms": 341.81,
+      "top_hit": {
+        "chunk_id": "doc_p21_c3",
+        "page": 21,
+        "section": "19 · विचार एवं बोध-प्रश्न",
+        "content_type": "narrative",
+        "score": 0.6613,
+        "snippet": "11. कलाम का निधन 2015 में कहाँ और कैसे हुआ? 12. कलाम को भारत रत्न किस वर्ष प्राप्त हुआ? मूल्यांकनकर्ता हेतु सुझाव: प्रश्न 4, 6, 8, 11 और 12 के सटीक तथ"
+      },
+      "all_hits": [
+        {
+          "chunk_id": "doc_p21_c3",
+          "page": 21,
+          "section": "19 · विचार एवं बोध-प्रश्न",
+          "score": 0.6613
+        },
+        {
+          "chunk_id": "doc_p20_c3",
+          "page": 20,
+          "section": "18 · संस्थाओं एवं शब्दों की शब्दावली",
+          "score": 0.6592
+        },
+        {
+          "chunk_id": "doc_p16_c1",
+          "page": 16,
+          "section": "14 · पुरस्कार एवं सम्मान",
+          "score": 0.6403
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "lang": "Hindi",
+      "query": "पोखरण-II में कलाम की क्या भूमिका थी?",
+      "latency_ms": 348.57,
+      "top_hit": {
+        "chunk_id": "doc_p10_c1",
+        "page": 10,
+        "section": "8 · पोखरण-II: 1998 के परमाणु परीक्षण",
+        "content_type": "narrative",
+        "score": 0.6558,
+        "snippet": "मई 1998 में, भारत ने राजस्थान के पोखरण में भूमिगत परमाणु परीक्षणों की एक शृंखला की, जिसे पोखरण-II या ऑपरेशन शक्ति के नाम से जाना जाता है। कलाम, जो उस "
+      },
+      "all_hits": [
+        {
+          "chunk_id": "doc_p10_c1",
+          "page": 10,
+          "section": "8 · पोखरण-II: 1998 के परमाणु परीक्षण",
+          "score": 0.6558
+        },
+        {
+          "chunk_id": "doc_p21_c2",
+          "page": 21,
+          "section": "19 · विचार एवं बोध-प्रश्न",
+          "score": 0.5546
+        },
+        {
+          "chunk_id": "doc_p4_c3",
+          "page": 4,
+          "section": "2 · रामेश्वरम में बचपन",
+          "score": 0.5068
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "lang": "English",
+      "query": "Which institution did Kalam attend to study aeronautical engineering?",
+      "latency_ms": 1350.06,
+      "top_hit": {
+        "chunk_id": "doc_p6_c1",
+        "page": 6,
+        "section": "4 · कॉलेज के वर्ष और उड़ान का आकर्षण",
+        "content_type": "narrative",
+        "score": 0.5627,
+        "snippet": "स्कूल के बाद, कलाम ने तिरुचिरापल्ली के सेंट जोसेफ कॉलेज में भौतिकी पढ़ी और 1950 के दशक के मध्य में स्नातक हुए। भौतिकी उन्हें रुचिकर लगती थी, कि ंतु अभ"
+      },
+      "all_hits": [
+        {
+          "chunk_id": "doc_p6_c1",
+          "page": 6,
+          "section": "4 · कॉलेज के वर्ष और उड़ान का आकर्षण",
+          "score": 0.5627
+        },
+        {
+          "chunk_id": "doc_p21_c1",
+          "page": 21,
+          "section": "19 · विचार एवं बोध-प्रश्न",
+          "score": 0.5417
+        },
+        {
+          "chunk_id": "doc_p7_c1",
+          "page": 7,
+          "section": "5 · वैज्ञानिक करियर के पहले कदम",
+          "score": 0.4924
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "lang": "English",
+      "query": "Who co-wrote the autobiography, and in what year was it published?",
+      "latency_ms": 517.81,
+      "top_hit": {
+        "chunk_id": "doc_p3_c3",
+        "page": 3,
+        "section": "1 · ए.पी.जे. अब्दुल कलाम कौन थे?",
+        "content_type": "narrative",
+        "score": 0.5616,
+        "snippet": "उन्होंने लगभग चार दशक भारत के अंतरिक्ष एवं रक्षा अनुसंधान के केंद्र में बिताए — पहले भारतीय अंतरिक्ष अनुसंधान संगठन (इसरो) में और फिर रक्षा अनुसंधान ए"
+      },
+      "all_hits": [
+        {
+          "chunk_id": "doc_p3_c3",
+          "page": 3,
+          "section": "1 · ए.पी.जे. अब्दुल कलाम कौन थे?",
+          "score": 0.5616
+        },
+        {
+          "chunk_id": "doc_p1_c1",
+          "page": 1,
+          "section": "शीर्षक पृष्ठ",
+          "score": 0.4885
+        },
+        {
+          "chunk_id": "doc_p17_c3",
+          "page": 17,
+          "section": "15 · जीवन-रेखा (टाइमलाइन)",
+          "score": 0.4587
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "lang": "English",
+      "query": "How and where did Kalam die in 2015?",
+      "latency_ms": 472.14,
+      "top_hit": {
+        "chunk_id": "doc_p15_c3",
+        "page": 15,
+        "section": "13 · अंतिम क्षण तक शिक्षक (2007–2015)",
+        "content_type": "narrative",
+        "score": 0.5868,
+        "snippet": "27 जुलाई 2015 को, कलाम शिलांग के भारतीय प्रबंधन संस्थान में विद्यार् थियों को व्याख्यान देते समय गिर पड़े और कुछ ही देर बाद 83 वर्ष की आयु में उनका नि"
+      },
+      "all_hits": [
+        {
+          "chunk_id": "doc_p15_c3",
+          "page": 15,
+          "section": "13 · अंतिम क्षण तक शिक्षक (2007–2015)",
+          "score": 0.5868
+        },
+        {
+          "chunk_id": "doc_p22_c2",
+          "page": 22,
+          "section": "20 · त्वरित तथ्य-सारांश",
+          "score": 0.4976
+        },
+        {
+          "chunk_id": "doc_p21_c3",
+          "page": 21,
+          "section": "19 · विचार एवं बोध-प्रश्न",
+          "score": 0.4765
+        }
+      ]
+    }
+  ]
+}

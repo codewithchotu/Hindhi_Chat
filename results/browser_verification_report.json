@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-11-08 20:11:34",
+  "steps": {
+    "theme_toggle_persistence": "PASSED",
+    "hindi_query_execution": "PASSED",
+    "source_viewer_modal": "PASSED",
+    "english_query_execution": "PASSED",
+    "unanswerable_refusal_ui": "PASSED",
+    "mobile_responsiveness": "PASSED",
+    "backend_disconnection_error_handling": "PASSED"
+  },
+  "console_logs": [
+    "[debug] [vite] connecting...",
+    "[debug] [vite] connected.",
+    "[info] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold",
+    "[debug] [vite] connecting...",
+    "[debug] [vite] connected.",
+    "[info] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold",
+    "[error] Failed to load resource: net::ERR_CONNECTION_REFUSED",
+    "[error] Query execution failed: TypeError: Failed to fetch\n    at submitRAGQuery (http://localhost:5173/src/services/api.js:87:21)\n    at handleSendMessage (http://localhost:5173/src/App.jsx:156:30)\n    at handleSubmit (http://localhost:5173/src/components/ChatInput.jsx:48:5)\n    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-BCXODTBQ.js?v=8c443dfd:3672:22)\n    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-BCXODTBQ.js?v=8c443dfd:3697:24)\n    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-BCXODTBQ.js?v=8c443dfd:3731:39)\n    at invokeGuardedCallbackAndCatchFirstError (http://localhost:5173/node_modules/.vite/deps/chunk-BCXODTBQ.js?v=8c443dfd:3734:33)\n    at executeDispatch (http://localhost:5173/node_modules/.vite/deps/chunk-BCXODTBQ.js?v=8c443dfd:7012:11)\n    at processDispatchQueueItemsInOrder (http://localhost:5173/node_modules/.vite/deps/chunk-BCXODTBQ.js?v=8c443dfd:7032:15)\n    at processDispatchQueue (http://localhost:5173/node_modules/.vite/deps/chunk-BCXODTBQ.js?v=8c443dfd:7041:13)"
+  ],
+  "network_errors": []
+}

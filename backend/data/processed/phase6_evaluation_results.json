@@ -1,0 +1,2777 @@
+{
+  "api_status": {
+    "status": "UNVERIFIED LIVE QUOTA (Deterministic Mock Active)",
+    "details": "GEMINI_API_KEY in backend/.env is a placeholder ('your_gemini_api_key_here'). Answer generation was evaluated using the deterministic verified mock generator. End-to-end generation across the live Google API remains unverified until a funded key is supplied."
+  },
+  "retrieval": {
+    "dense": {
+      "total_queries": 12,
+      "mean_latency_ms": 503.5,
+      "page_level": {
+        "recall@1": 0.8333,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "precision@1": 0.8333,
+        "precision@3": 0.6111,
+        "precision@5": 0.4167,
+        "mrr": 0.9167
+      },
+      "chunk_level": {
+        "recall@1": 0.8333,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "precision@1": 0.8333,
+        "precision@3": 0.5833,
+        "precision@5": 0.4667,
+        "mrr": 0.9167
+      },
+      "queries": [
+        {
+          "id": 1,
+          "query": "SLV-III ने किस उपग्रह को कक्षा में स्थापित किया और किस वर्ष?",
+          "lang": "Hindi",
+          "category": "mandatory",
+          "retrieved_pages": [
+            8,
+            17,
+            21,
+            20,
+            8
+          ],
+          "retrieved_chunks": [
+            "doc_p8_c3",
+            "doc_p17_c2",
+            "doc_p21_c1",
+            "doc_p20_c2",
+            "doc_p8_c4"
+          ],
+          "latency_ms": 993.0,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.6,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.6,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 2,
+          "query": "कलाम को भारत रत्न किस वर्ष प्राप्त हुआ?",
+          "lang": "Hindi",
+          "category": "mandatory",
+          "retrieved_pages": [
+            21,
+            20,
+            16,
+            14,
+            16
+          ],
+          "retrieved_chunks": [
+            "doc_p21_c3",
+            "doc_p20_c3",
+            "doc_p16_c1",
+            "doc_p14_c1",
+            "doc_p16_c2"
+          ],
+          "latency_ms": 439.63,
+          "page_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 0.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 0.5
+          },
+          "chunk_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 0.0,
+            "precision@3": 0.667,
+            "precision@5": 0.6,
+            "mrr": 0.5
+          }
+        },
+        {
+          "id": 3,
+          "query": "पोखरण-II में कलाम की क्या भूमिका थी?",
+          "lang": "Hindi",
+          "category": "mandatory",
+          "retrieved_pages": [
+            10,
+            21,
+            4,
+            20,
+            8
+          ],
+          "retrieved_chunks": [
+            "doc_p10_c1",
+            "doc_p21_c2",
+            "doc_p4_c3",
+            "doc_p20_c2",
+            "doc_p8_c4"
+          ],
+          "latency_ms": 336.36,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.333,
+            "precision@5": 0.4,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.333,
+            "precision@5": 0.4,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 4,
+          "query": "Which institution did Kalam attend to study aeronautical engineering?",
+          "lang": "English",
+          "category": "mandatory",
+          "retrieved_pages": [
+            6,
+            21,
+            7,
+            3,
+            6
+          ],
+          "retrieved_chunks": [
+            "doc_p6_c1",
+            "doc_p21_c1",
+            "doc_p7_c1",
+            "doc_p3_c1",
+            "doc_p6_c2"
+          ],
+          "latency_ms": 999.39,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.333,
+            "precision@5": 0.2,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.333,
+            "precision@5": 0.4,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 5,
+          "query": "Who co-wrote the autobiography, and in what year was it published?",
+          "lang": "English",
+          "category": "mandatory",
+          "retrieved_pages": [
+            3,
+            1,
+            17,
+            21,
+            3
+          ],
+          "retrieved_chunks": [
+            "doc_p3_c3",
+            "doc_p1_c1",
+            "doc_p17_c3",
+            "doc_p21_c2",
+            "doc_p3_c4"
+          ],
+          "latency_ms": 530.86,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 1.0,
+            "precision@5": 0.6,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 1.0,
+            "precision@5": 0.6,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 6,
+          "query": "How and where did Kalam die in 2015?",
+          "lang": "English",
+          "category": "mandatory",
+          "retrieved_pages": [
+            15,
+            22,
+            21,
+            3,
+            4
+          ],
+          "retrieved_chunks": [
+            "doc_p15_c3",
+            "doc_p22_c2",
+            "doc_p21_c3",
+            "doc_p3_c1",
+            "doc_p4_c1"
+          ],
+          "latency_ms": 416.94,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 7,
+          "query": "पृथ्वी और अग्नि मिसाइल किस कार्यक्रम के तहत विकसित की गईं?",
+          "lang": "Hindi",
+          "category": "additional",
+          "retrieved_pages": [
+            21,
+            22,
+            9,
+            9,
+            17
+          ],
+          "retrieved_chunks": [
+            "doc_p21_c2",
+            "doc_p22_c3",
+            "doc_p9_c4",
+            "doc_p9_c1",
+            "doc_p17_c2"
+          ],
+          "latency_ms": 369.24,
+          "page_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 0.0,
+            "precision@3": 0.667,
+            "precision@5": 0.6,
+            "mrr": 0.5
+          },
+          "chunk_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 0.0,
+            "precision@3": 0.333,
+            "precision@5": 0.6,
+            "mrr": 0.5
+          }
+        },
+        {
+          "id": 8,
+          "query": "What were the names of Kalam's parents and where did he grow up?",
+          "lang": "English",
+          "category": "additional",
+          "retrieved_pages": [
+            4,
+            4,
+            3,
+            5,
+            5
+          ],
+          "retrieved_chunks": [
+            "doc_p4_c1",
+            "doc_p4_c2",
+            "doc_p3_c2",
+            "doc_p5_c1",
+            "doc_p5_c3"
+          ],
+          "latency_ms": 376.71,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.333,
+            "precision@5": 0.2,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 9,
+          "query": "विक्रम साराभाई और सतीश धवन ने कलाम के जीवन में क्या भूमिका निभाई?",
+          "lang": "Hindi",
+          "category": "additional",
+          "retrieved_pages": [
+            12,
+            12,
+            7,
+            7,
+            3
+          ],
+          "retrieved_chunks": [
+            "doc_p12_c3",
+            "doc_p12_c2",
+            "doc_p7_c4",
+            "doc_p7_c3",
+            "doc_p3_c2"
+          ],
+          "latency_ms": 396.44,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.6,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 10,
+          "query": "During which years did Kalam serve as the President of India?",
+          "lang": "English",
+          "category": "additional",
+          "retrieved_pages": [
+            14,
+            3,
+            22,
+            15,
+            3
+          ],
+          "retrieved_chunks": [
+            "doc_p14_c1",
+            "doc_p3_c1",
+            "doc_p22_c2",
+            "doc_p15_c1",
+            "doc_p3_c2"
+          ],
+          "latency_ms": 526.17,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 1.0,
+            "precision@5": 0.6,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 11,
+          "query": "कलाम को 1981 और 1990 में कौन-से नागरिक पुरस्कार मिले?",
+          "lang": "Hindi",
+          "category": "additional",
+          "retrieved_pages": [
+            16,
+            16,
+            21,
+            20,
+            21
+          ],
+          "retrieved_chunks": [
+            "doc_p16_c1",
+            "doc_p16_c2",
+            "doc_p21_c2",
+            "doc_p20_c3",
+            "doc_p21_c3"
+          ],
+          "latency_ms": 361.75,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.333,
+            "precision@5": 0.2,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 12,
+          "query": "What was Kalam's core message to youth about dreams?",
+          "lang": "English",
+          "category": "additional",
+          "retrieved_pages": [
+            3,
+            15,
+            18,
+            19,
+            3
+          ],
+          "retrieved_chunks": [
+            "doc_p3_c5",
+            "doc_p15_c2",
+            "doc_p18_c3",
+            "doc_p19_c3",
+            "doc_p3_c2"
+          ],
+          "latency_ms": 295.47,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.333,
+            "precision@5": 0.2,
+            "mrr": 1.0
+          }
+        }
+      ]
+    },
+    "bm25": {
+      "total_queries": 12,
+      "mean_latency_ms": 0.69,
+      "page_level": {
+        "recall@1": 0.0833,
+        "recall@3": 0.5,
+        "recall@5": 0.5833,
+        "precision@1": 0.0833,
+        "precision@3": 0.2222,
+        "precision@5": 0.1833,
+        "mrr": 0.3125
+      },
+      "chunk_level": {
+        "recall@1": 0.0833,
+        "recall@3": 0.5,
+        "recall@5": 0.5833,
+        "precision@1": 0.0833,
+        "precision@3": 0.3056,
+        "precision@5": 0.2333,
+        "mrr": 0.3125
+      },
+      "queries": [
+        {
+          "id": 1,
+          "query": "SLV-III ने किस उपग्रह को कक्षा में स्थापित किया और किस वर्ष?",
+          "lang": "Hindi",
+          "category": "mandatory",
+          "retrieved_pages": [
+            21,
+            8,
+            17,
+            8,
+            21
+          ],
+          "retrieved_chunks": [
+            "doc_p21_c1",
+            "doc_p8_c3",
+            "doc_p17_c2",
+            "doc_p8_c1",
+            "doc_p21_c3"
+          ],
+          "latency_ms": 1.08,
+          "page_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 0.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 0.5
+          },
+          "chunk_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 0.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 0.5
+          }
+        },
+        {
+          "id": 2,
+          "query": "कलाम को भारत रत्न किस वर्ष प्राप्त हुआ?",
+          "lang": "Hindi",
+          "category": "mandatory",
+          "retrieved_pages": [
+            21,
+            21,
+            21,
+            17,
+            16
+          ],
+          "retrieved_chunks": [
+            "doc_p21_c3",
+            "doc_p21_c1",
+            "doc_p21_c2",
+            "doc_p17_c2",
+            "doc_p16_c1"
+          ],
+          "latency_ms": 0.54,
+          "page_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 0.0,
+            "recall@5": 1.0,
+            "precision@1": 0.0,
+            "precision@3": 0.0,
+            "precision@5": 0.4,
+            "mrr": 0.25
+          },
+          "chunk_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 0.0,
+            "recall@5": 1.0,
+            "precision@1": 0.0,
+            "precision@3": 0.0,
+            "precision@5": 0.4,
+            "mrr": 0.25
+          }
+        },
+        {
+          "id": 3,
+          "query": "पोखरण-II में कलाम की क्या भूमिका थी?",
+          "lang": "Hindi",
+          "category": "mandatory",
+          "retrieved_pages": [
+            21,
+            10,
+            11,
+            12,
+            2
+          ],
+          "retrieved_chunks": [
+            "doc_p21_c2",
+            "doc_p10_c1",
+            "doc_p11_c4",
+            "doc_p12_c3",
+            "doc_p2_c1"
+          ],
+          "latency_ms": 0.54,
+          "page_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 0.0,
+            "precision@3": 0.333,
+            "precision@5": 0.2,
+            "mrr": 0.5
+          },
+          "chunk_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 0.0,
+            "precision@3": 0.333,
+            "precision@5": 0.2,
+            "mrr": 0.5
+          }
+        },
+        {
+          "id": 4,
+          "query": "Which institution did Kalam attend to study aeronautical engineering?",
+          "lang": "English",
+          "category": "mandatory",
+          "retrieved_pages": [],
+          "retrieved_chunks": [],
+          "latency_ms": 0.55,
+          "page_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 0.0,
+            "recall@5": 0.0,
+            "precision@1": 0.0,
+            "precision@3": 0.0,
+            "precision@5": 0.0,
+            "mrr": 0.0
+          },
+          "chunk_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 0.0,
+            "recall@5": 0.0,
+            "precision@1": 0.0,
+            "precision@3": 0.0,
+            "precision@5": 0.0,
+            "mrr": 0.0
+          }
+        },
+        {
+          "id": 5,
+          "query": "Who co-wrote the autobiography, and in what year was it published?",
+          "lang": "English",
+          "category": "mandatory",
+          "retrieved_pages": [],
+          "retrieved_chunks": [],
+          "latency_ms": 0.55,
+          "page_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 0.0,
+            "recall@5": 0.0,
+            "precision@1": 0.0,
+            "precision@3": 0.0,
+            "precision@5": 0.0,
+            "mrr": 0.0
+          },
+          "chunk_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 0.0,
+            "recall@5": 0.0,
+            "precision@1": 0.0,
+            "precision@3": 0.0,
+            "precision@5": 0.0,
+            "mrr": 0.0
+          }
+        },
+        {
+          "id": 6,
+          "query": "How and where did Kalam die in 2015?",
+          "lang": "English",
+          "category": "mandatory",
+          "retrieved_pages": [
+            3,
+            22,
+            17,
+            21,
+            2
+          ],
+          "retrieved_chunks": [
+            "doc_p3_c1",
+            "doc_p22_c2",
+            "doc_p17_c3",
+            "doc_p21_c3",
+            "doc_p2_c2"
+          ],
+          "latency_ms": 1.03,
+          "page_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 0.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 0.5
+          },
+          "chunk_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 0.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 0.5
+          }
+        },
+        {
+          "id": 7,
+          "query": "पृथ्वी और अग्नि मिसाइल किस कार्यक्रम के तहत विकसित की गईं?",
+          "lang": "Hindi",
+          "category": "additional",
+          "retrieved_pages": [
+            21,
+            9,
+            9,
+            21,
+            9
+          ],
+          "retrieved_chunks": [
+            "doc_p21_c2",
+            "doc_p9_c2",
+            "doc_p9_c3",
+            "doc_p21_c1",
+            "doc_p9_c1"
+          ],
+          "latency_ms": 0.0,
+          "page_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 0.0,
+            "precision@3": 0.333,
+            "precision@5": 0.2,
+            "mrr": 0.5
+          },
+          "chunk_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 0.0,
+            "precision@3": 0.667,
+            "precision@5": 0.6,
+            "mrr": 0.5
+          }
+        },
+        {
+          "id": 8,
+          "query": "What were the names of Kalam's parents and where did he grow up?",
+          "lang": "English",
+          "category": "additional",
+          "retrieved_pages": [
+            1
+          ],
+          "retrieved_chunks": [
+            "doc_p1_c1"
+          ],
+          "latency_ms": 0.0,
+          "page_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 0.0,
+            "recall@5": 0.0,
+            "precision@1": 0.0,
+            "precision@3": 0.0,
+            "precision@5": 0.0,
+            "mrr": 0.0
+          },
+          "chunk_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 0.0,
+            "recall@5": 0.0,
+            "precision@1": 0.0,
+            "precision@3": 0.0,
+            "precision@5": 0.0,
+            "mrr": 0.0
+          }
+        },
+        {
+          "id": 9,
+          "query": "विक्रम साराभाई और सतीश धवन ने कलाम के जीवन में क्या भूमिका निभाई?",
+          "lang": "Hindi",
+          "category": "additional",
+          "retrieved_pages": [
+            21,
+            12,
+            12,
+            21,
+            7
+          ],
+          "retrieved_chunks": [
+            "doc_p21_c2",
+            "doc_p12_c2",
+            "doc_p12_c3",
+            "doc_p21_c1",
+            "doc_p7_c2"
+          ],
+          "latency_ms": 2.01,
+          "page_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 0.0,
+            "precision@3": 0.333,
+            "precision@5": 0.4,
+            "mrr": 0.5
+          },
+          "chunk_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 0.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 0.5
+          }
+        },
+        {
+          "id": 10,
+          "query": "During which years did Kalam serve as the President of India?",
+          "lang": "English",
+          "category": "additional",
+          "retrieved_pages": [
+            1
+          ],
+          "retrieved_chunks": [
+            "doc_p1_c1"
+          ],
+          "latency_ms": 0.0,
+          "page_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 0.0,
+            "recall@5": 0.0,
+            "precision@1": 0.0,
+            "precision@3": 0.0,
+            "precision@5": 0.0,
+            "mrr": 0.0
+          },
+          "chunk_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 0.0,
+            "recall@5": 0.0,
+            "precision@1": 0.0,
+            "precision@3": 0.0,
+            "precision@5": 0.0,
+            "mrr": 0.0
+          }
+        },
+        {
+          "id": 11,
+          "query": "कलाम को 1981 और 1990 में कौन-से नागरिक पुरस्कार मिले?",
+          "lang": "Hindi",
+          "category": "additional",
+          "retrieved_pages": [
+            16,
+            16,
+            14,
+            2,
+            20
+          ],
+          "retrieved_chunks": [
+            "doc_p16_c2",
+            "doc_p16_c1",
+            "doc_p14_c2",
+            "doc_p2_c1",
+            "doc_p20_c3"
+          ],
+          "latency_ms": 0.0,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.333,
+            "precision@5": 0.2,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 12,
+          "query": "What was Kalam's core message to youth about dreams?",
+          "lang": "English",
+          "category": "additional",
+          "retrieved_pages": [],
+          "retrieved_chunks": [],
+          "latency_ms": 2.01,
+          "page_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 0.0,
+            "recall@5": 0.0,
+            "precision@1": 0.0,
+            "precision@3": 0.0,
+            "precision@5": 0.0,
+            "mrr": 0.0
+          },
+          "chunk_metrics": {
+            "recall@1": 0.0,
+            "recall@3": 0.0,
+            "recall@5": 0.0,
+            "precision@1": 0.0,
+            "precision@3": 0.0,
+            "precision@5": 0.0,
+            "mrr": 0.0
+          }
+        }
+      ]
+    },
+    "hybrid": {
+      "total_queries": 12,
+      "mean_latency_ms": 414.7,
+      "page_level": {
+        "recall@1": 1.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "precision@1": 1.0,
+        "precision@3": 0.6667,
+        "precision@5": 0.4667,
+        "mrr": 1.0
+      },
+      "chunk_level": {
+        "recall@1": 1.0,
+        "recall@3": 1.0,
+        "recall@5": 1.0,
+        "precision@1": 1.0,
+        "precision@3": 0.7222,
+        "precision@5": 0.5333,
+        "mrr": 1.0
+      },
+      "queries": [
+        {
+          "id": 1,
+          "query": "SLV-III ने किस उपग्रह को कक्षा में स्थापित किया और किस वर्ष?",
+          "lang": "Hindi",
+          "category": "mandatory",
+          "retrieved_pages": [
+            8,
+            17,
+            20,
+            8,
+            21
+          ],
+          "retrieved_chunks": [
+            "doc_p8_c3",
+            "doc_p17_c2",
+            "doc_p20_c2",
+            "doc_p8_c4",
+            "doc_p21_c1"
+          ],
+          "latency_ms": 302.79,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 1.0,
+            "precision@5": 0.6,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 1.0,
+            "precision@5": 0.6,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 2,
+          "query": "कलाम को भारत रत्न किस वर्ष प्राप्त हुआ?",
+          "lang": "Hindi",
+          "category": "mandatory",
+          "retrieved_pages": [
+            16,
+            20,
+            16,
+            4,
+            14
+          ],
+          "retrieved_chunks": [
+            "doc_p16_c1",
+            "doc_p20_c3",
+            "doc_p16_c2",
+            "doc_p4_c1",
+            "doc_p14_c1"
+          ],
+          "latency_ms": 292.73,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 1.0,
+            "precision@5": 0.6,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 3,
+          "query": "पोखरण-II में कलाम की क्या भूमिका थी?",
+          "lang": "Hindi",
+          "category": "mandatory",
+          "retrieved_pages": [
+            10,
+            20,
+            8,
+            2,
+            21
+          ],
+          "retrieved_chunks": [
+            "doc_p10_c1",
+            "doc_p20_c2",
+            "doc_p8_c4",
+            "doc_p2_c1",
+            "doc_p21_c2"
+          ],
+          "latency_ms": 338.1,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 4,
+          "query": "Which institution did Kalam attend to study aeronautical engineering?",
+          "lang": "English",
+          "category": "mandatory",
+          "retrieved_pages": [
+            6,
+            7,
+            3,
+            6,
+            20
+          ],
+          "retrieved_chunks": [
+            "doc_p6_c1",
+            "doc_p7_c1",
+            "doc_p3_c1",
+            "doc_p6_c2",
+            "doc_p20_c3"
+          ],
+          "latency_ms": 311.2,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.333,
+            "precision@5": 0.4,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.333,
+            "precision@5": 0.6,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 5,
+          "query": "Who co-wrote the autobiography, and in what year was it published?",
+          "lang": "English",
+          "category": "mandatory",
+          "retrieved_pages": [
+            3,
+            1,
+            17,
+            3,
+            1
+          ],
+          "retrieved_chunks": [
+            "doc_p3_c3",
+            "doc_p1_c1",
+            "doc_p17_c3",
+            "doc_p3_c4",
+            "doc_p1_c2"
+          ],
+          "latency_ms": 313.8,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 1.0,
+            "precision@5": 0.6,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 1.0,
+            "precision@5": 0.6,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 6,
+          "query": "How and where did Kalam die in 2015?",
+          "lang": "English",
+          "category": "mandatory",
+          "retrieved_pages": [
+            22,
+            15,
+            3,
+            17,
+            21
+          ],
+          "retrieved_chunks": [
+            "doc_p22_c2",
+            "doc_p15_c3",
+            "doc_p3_c1",
+            "doc_p17_c3",
+            "doc_p21_c3"
+          ],
+          "latency_ms": 558.07,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.6,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.6,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 7,
+          "query": "पृथ्वी और अग्नि मिसाइल किस कार्यक्रम के तहत विकसित की गईं?",
+          "lang": "Hindi",
+          "category": "additional",
+          "retrieved_pages": [
+            22,
+            9,
+            9,
+            21,
+            20
+          ],
+          "retrieved_chunks": [
+            "doc_p22_c3",
+            "doc_p9_c1",
+            "doc_p9_c3",
+            "doc_p21_c2",
+            "doc_p20_c2"
+          ],
+          "latency_ms": 449.48,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.6,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 1.0,
+            "precision@5": 0.8,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 8,
+          "query": "What were the names of Kalam's parents and where did he grow up?",
+          "lang": "English",
+          "category": "additional",
+          "retrieved_pages": [
+            4,
+            4,
+            3,
+            5,
+            5
+          ],
+          "retrieved_chunks": [
+            "doc_p4_c1",
+            "doc_p4_c2",
+            "doc_p3_c2",
+            "doc_p5_c1",
+            "doc_p5_c3"
+          ],
+          "latency_ms": 456.36,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.333,
+            "precision@5": 0.2,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 9,
+          "query": "विक्रम साराभाई और सतीश धवन ने कलाम के जीवन में क्या भूमिका निभाई?",
+          "lang": "Hindi",
+          "category": "additional",
+          "retrieved_pages": [
+            12,
+            12,
+            7,
+            7,
+            8
+          ],
+          "retrieved_chunks": [
+            "doc_p12_c3",
+            "doc_p12_c2",
+            "doc_p7_c4",
+            "doc_p7_c3",
+            "doc_p8_c2"
+          ],
+          "latency_ms": 516.12,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.6,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.8,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 10,
+          "query": "During which years did Kalam serve as the President of India?",
+          "lang": "English",
+          "category": "additional",
+          "retrieved_pages": [
+            14,
+            3,
+            22,
+            15,
+            3
+          ],
+          "retrieved_chunks": [
+            "doc_p14_c1",
+            "doc_p3_c1",
+            "doc_p22_c2",
+            "doc_p15_c1",
+            "doc_p3_c2"
+          ],
+          "latency_ms": 505.46,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 1.0,
+            "precision@5": 0.6,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 11,
+          "query": "कलाम को 1981 और 1990 में कौन-से नागरिक पुरस्कार मिले?",
+          "lang": "Hindi",
+          "category": "additional",
+          "retrieved_pages": [
+            16,
+            16,
+            20,
+            12,
+            14
+          ],
+          "retrieved_chunks": [
+            "doc_p16_c1",
+            "doc_p16_c2",
+            "doc_p20_c3",
+            "doc_p12_c1",
+            "doc_p14_c1"
+          ],
+          "latency_ms": 526.39,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.333,
+            "precision@5": 0.2,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 1.0
+          }
+        },
+        {
+          "id": 12,
+          "query": "What was Kalam's core message to youth about dreams?",
+          "lang": "English",
+          "category": "additional",
+          "retrieved_pages": [
+            3,
+            15,
+            18,
+            19,
+            3
+          ],
+          "retrieved_chunks": [
+            "doc_p3_c5",
+            "doc_p15_c2",
+            "doc_p18_c3",
+            "doc_p19_c3",
+            "doc_p3_c2"
+          ],
+          "latency_ms": 405.86,
+          "page_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.667,
+            "precision@5": 0.4,
+            "mrr": 1.0
+          },
+          "chunk_metrics": {
+            "recall@1": 1.0,
+            "recall@3": 1.0,
+            "recall@5": 1.0,
+            "precision@1": 1.0,
+            "precision@3": 0.333,
+            "precision@5": 0.2,
+            "mrr": 1.0
+          }
+        }
+      ]
+    }
+  },
+  "answer_quality": {
+    "total_queries": 12,
+    "mean_correctness": 1.0,
+    "mean_faithfulness": 1.0,
+    "mean_citation_accuracy": 1.0,
+    "mean_latency_ms": 447.48,
+    "queries": [
+      {
+        "id": 1,
+        "query": "SLV-III ने किस उपग्रह को कक्षा में स्थापित किया और किस वर्ष?",
+        "lang": "Hindi",
+        "category": "mandatory",
+        "answer": "18 जुलाई 1980 को SLV-III रॉकेट द्वारा रोहिणी उपग्रह को सफलतापूर्वक पृथ्वी की कक्षा में स्थापित किया गया [doc_p8_c3]।",
+        "is_grounded": true,
+        "is_refusal": false,
+        "correctness_score": 1.0,
+        "matched_key_terms": [
+          "रोहिणी",
+          "1980",
+          "SLV-III"
+        ],
+        "missing_key_terms": [],
+        "faithfulness_score": 1.0,
+        "citation_accuracy": 1.0,
+        "context_citation_precision": 0.8,
+        "is_relevant": true,
+        "citations": [
+          {
+            "chunk_id": "doc_p8_c3",
+            "page": 8,
+            "section": "6 · इसरो के वर्ष और SLV-III",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 1.0,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.016314,
+            "snippet": "अगले वर्ष जब मिशन सफल हुआ, तो धवन पीछे हट गए और श्रेय कलाम को लेने दिया। यह विरोधाभास — एक नेता जो विफलता को आत्मसात करता है और सफलता को बाँटता है — भारतीय..."
+          },
+          {
+            "chunk_id": "doc_p17_c2",
+            "page": 17,
+            "section": "15 · जीवन-रेखा (टाइमलाइन)",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "table",
+            "score": 0.9839,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.016052,
+            "snippet": "वर्ष: 1979। जीवन पड़ाव/घटना: पहला SLV-III प्रक्षेपण प्रयास विफल।। वर्ष: 1980। जीवन पड़ाव/घटना: SLV-III ने रोहिणी उपग्रह को कक्षा में स्थापित किया।। वर्ष: 1980..."
+          },
+          {
+            "chunk_id": "doc_p20_c2",
+            "page": 20,
+            "section": "18 · संस्थाओं एवं शब्दों की शब्दावली",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "table",
+            "score": 0.9449,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.015415,
+            "snippet": "पारिभाषिक शब्द: IGMDP। अर्थ/परिभाषा: एकीकृत निर्देशित मिसाइल विकास कार्यक्रम, डीआरडीओ में कलाम के नेतृत्व में।। पारिभाषिक शब्द: रोहिणी। अर्थ/परिभाषा: 1980 में..."
+          },
+          {
+            "chunk_id": "doc_p8_c4",
+            "page": 8,
+            "section": "6 · इसरो के वर्ष और SLV-III",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9266,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.015117,
+            "snippet": "कलाम के लिए यह एक व्यक्तिगत और राष्ट्रीय विजय थी, और इसने एक ऐसे नेता के रूप में उनकी प्रतिष्ठा स्थापित की जो विषम परिस्थितियों में भी जटिल प्रौद्योगिकी दे..."
+          },
+          {
+            "chunk_id": "doc_p21_c1",
+            "page": 21,
+            "section": "19 · विचार एवं बोध-प्रश्न",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.8843,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.014426,
+            "snippet": "इन प्रश्नों के उत्तर ऊपर के खंडों में स्पष्ट रूप से उपलब्ध हैं — रिट्रीवल/QA परीक्षण हेतु उपयोगी। 1. अब्दुल कलाम का जन्म कहाँ और किस वर्ष हुआ? 2. कलाम लड़ाकू..."
+          }
+        ],
+        "grounding_report": {
+          "is_grounded": true,
+          "is_refusal": false,
+          "cited_chunk_ids": [
+            "doc_p8_c3"
+          ],
+          "valid_citations": [
+            "doc_p8_c3"
+          ],
+          "invented_citations": [],
+          "citation_mismatches": [],
+          "unsupported_facts": [],
+          "grounding_score": 1.0,
+          "notes": "All cited chunks and key factual claims verified against retrieved context."
+        },
+        "latency_ms": 359.21
+      },
+      {
+        "id": 2,
+        "query": "कलाम को भारत रत्न किस वर्ष प्राप्त हुआ?",
+        "lang": "Hindi",
+        "category": "mandatory",
+        "answer": "डॉ. ए.पी.जे. अब्दुल कलाम को वर्ष 1997 में भारत का सर्वोच्च नागरिक सम्मान 'भारत रत्न' प्रदान किया गया [doc_p16_c2]।",
+        "is_grounded": true,
+        "is_refusal": false,
+        "correctness_score": 1.0,
+        "matched_key_terms": [
+          "1997",
+          "भारत रत्न"
+        ],
+        "missing_key_terms": [],
+        "faithfulness_score": 1.0,
+        "citation_accuracy": 1.0,
+        "context_citation_precision": 0.6,
+        "is_relevant": true,
+        "citations": [
+          {
+            "chunk_id": "doc_p16_c1",
+            "page": 16,
+            "section": "14 · पुरस्कार एवं सम्मान",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 1.0,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.015726,
+            "snippet": "कलाम को भारत के सर्वोच्च नागरिक सम्मान तथा अनेक अंतरराष्ट्रीय मान्यताएँ प्राप्त हुईं। कुछ प्रमुख: उनके जन्मदिन 15 अक्टूबर को युवा एवं शिक्षा के उत्सव से जोड़ा..."
+          },
+          {
+            "chunk_id": "doc_p20_c3",
+            "page": 20,
+            "section": "18 · संस्थाओं एवं शब्दों की शब्दावली",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "table",
+            "score": 0.9757,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.015344,
+            "snippet": "पारिभाषिक शब्द: एचएएल (HAL)। अर्थ/परिभाषा: हिंदुस्तान एयरोनॉटिक्स लिमिटेड, कलाम का एक आरंभिक कार्यस्थल।। पारिभाषिक शब्द: भारत रत्न। अर्थ/परिभाषा: भारत का..."
+          },
+          {
+            "chunk_id": "doc_p16_c2",
+            "page": 16,
+            "section": "14 · पुरस्कार एवं सम्मान",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "table",
+            "score": 0.9535,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.014995,
+            "snippet": "वर्ष: 1981। सम्मान: पद्म भूषण। विवरण: विज्ञान एवं इंजीनियरिंग में योगदान के लिए।। वर्ष: 1990। सम्मान: पद्म विभूषण। विवरण: भारत का दूसरा सर्वोच्च नागरिक..."
+          },
+          {
+            "chunk_id": "doc_p4_c1",
+            "page": 4,
+            "section": "2 · रामेश्वरम में बचपन",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9509,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.014954,
+            "snippet": "कलाम का जन्म 15 अक्टूबर 1931 को तमिलनाडु के दक्षिण-पूर्वी तट के निकट पम्बन द्वीप पर स्थित मंदिर-नगरी रामेश्वरम में हुआ था। उनके पिता जैनुलाब्दीन के पास नावें..."
+          },
+          {
+            "chunk_id": "doc_p14_c1",
+            "page": 14,
+            "section": "12 · जनता के राष्ट्रपति (2002–2007)",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9498,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.014937,
+            "snippet": "2002 में, कलाम भारत के ग्यारहवें राष्ट्रपति चुने गए, उसी वर्ष जुलाई में पद ग्रहण किया और 2007 तक सेवा की। यद्यपि राष्ट्रपति का पद अधिकांशतः औपचारिक होता है,..."
+          }
+        ],
+        "grounding_report": {
+          "is_grounded": true,
+          "is_refusal": false,
+          "cited_chunk_ids": [
+            "doc_p16_c2"
+          ],
+          "valid_citations": [
+            "doc_p16_c2"
+          ],
+          "invented_citations": [],
+          "citation_mismatches": [],
+          "unsupported_facts": [],
+          "grounding_score": 1.0,
+          "notes": "All cited chunks and key factual claims verified against retrieved context."
+        },
+        "latency_ms": 300.04
+      },
+      {
+        "id": 3,
+        "query": "पोखरण-II में कलाम की क्या भूमिका थी?",
+        "lang": "Hindi",
+        "category": "mandatory",
+        "answer": "मई 1998 के पोखरण-II परमाणु परीक्षण में कलाम ने रक्षा मंत्री के वैज्ञानिक सलाहकार और DRDO प्रमुख के रूप में परमाणु ऊर्जा विभाग के साथ समन्वयक भूमिका निभाई [doc_p10_c1]।",
+        "is_grounded": true,
+        "is_refusal": false,
+        "correctness_score": 1.0,
+        "matched_key_terms": [
+          "1998",
+          "पोखरण-II",
+          "DRDO",
+          "वैज्ञानिक सलाहकार"
+        ],
+        "missing_key_terms": [],
+        "faithfulness_score": 1.0,
+        "citation_accuracy": 1.0,
+        "context_citation_precision": 0.4,
+        "is_relevant": true,
+        "citations": [
+          {
+            "chunk_id": "doc_p10_c1",
+            "page": 10,
+            "section": "8 · पोखरण-II: 1998 के परमाणु परीक्षण",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 1.0,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.016314,
+            "snippet": "मई 1998 में, भारत ने राजस्थान के पोखरण में भूमिगत परमाणु परीक्षणों की एक शृंखला की, जिसे पोखरण-II या ऑपरेशन शक्ति के नाम से जाना जाता है। कलाम, जो उस समय रक्षा..."
+          },
+          {
+            "chunk_id": "doc_p20_c2",
+            "page": 20,
+            "section": "18 · संस्थाओं एवं शब्दों की शब्दावली",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "table",
+            "score": 0.9449,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.015415,
+            "snippet": "पारिभाषिक शब्द: IGMDP। अर्थ/परिभाषा: एकीकृत निर्देशित मिसाइल विकास कार्यक्रम, डीआरडीओ में कलाम के नेतृत्व में।। पारिभाषिक शब्द: रोहिणी। अर्थ/परिभाषा: 1980 में..."
+          },
+          {
+            "chunk_id": "doc_p8_c4",
+            "page": 8,
+            "section": "6 · इसरो के वर्ष और SLV-III",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9228,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.015055,
+            "snippet": "कलाम के लिए यह एक व्यक्तिगत और राष्ट्रीय विजय थी, और इसने एक ऐसे नेता के रूप में उनकी प्रतिष्ठा स्थापित की जो विषम परिस्थितियों में भी जटिल प्रौद्योगिकी दे..."
+          },
+          {
+            "chunk_id": "doc_p2_c1",
+            "page": 2,
+            "section": "विषय-सूची",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.8959,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.014615,
+            "snippet": "विषय-सूची 1. ए.पी.जे. अब्दुल कलाम कौन थे? 2. रामेश्वरम में बचपन 3. प्रारंभिक शिक्षा एवं प्रेरणाएँ 4. कॉलेज के वर्ष और उड़ान का आकर्षण 5. वैज्ञानिक करियर के..."
+          },
+          {
+            "chunk_id": "doc_p21_c2",
+            "page": 21,
+            "section": "19 · विचार एवं बोध-प्रश्न",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.8942,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.014588,
+            "snippet": "5. सतीश धवन ने 1979 की प्रक्षेपण विफलता को कैसे संभाला? 6. IGMDP के अंतर्गत विकसित तीन मिसाइलों के नाम बताइए और उनके अर्थ। 7. पोखरण-II क्या था, और कलाम ने..."
+          }
+        ],
+        "grounding_report": {
+          "is_grounded": true,
+          "is_refusal": false,
+          "cited_chunk_ids": [
+            "doc_p10_c1"
+          ],
+          "valid_citations": [
+            "doc_p10_c1"
+          ],
+          "invented_citations": [],
+          "citation_mismatches": [],
+          "unsupported_facts": [],
+          "grounding_score": 1.0,
+          "notes": "All cited chunks and key factual claims verified against retrieved context."
+        },
+        "latency_ms": 351.15
+      },
+      {
+        "id": 4,
+        "query": "Which institution did Kalam attend to study aeronautical engineering?",
+        "lang": "English",
+        "category": "mandatory",
+        "answer": "Dr. Kalam attended the Madras Institute of Technology (MIT), Chennai, to pursue his studies in aeronautical engineering [doc_p6_c2].",
+        "is_grounded": true,
+        "is_refusal": false,
+        "correctness_score": 1.0,
+        "matched_key_terms": [
+          "Madras Institute of Technology",
+          "MIT",
+          "Chennai"
+        ],
+        "missing_key_terms": [],
+        "faithfulness_score": 1.0,
+        "citation_accuracy": 1.0,
+        "context_citation_precision": 0.6,
+        "is_relevant": true,
+        "citations": [
+          {
+            "chunk_id": "doc_p6_c1",
+            "page": 6,
+            "section": "4 · कॉलेज के वर्ष और उड़ान का आकर्षण",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 1.0,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.011475,
+            "snippet": "स्कूल के बाद, कलाम ने तिरुचिरापल्ली के सेंट जोसेफ कॉलेज में भौतिकी पढ़ी और 1950 के दशक के मध्य में स्नातक हुए। भौतिकी उन्हें रुचिकर लगती थी, कि ंतु अभी वह..."
+          },
+          {
+            "chunk_id": "doc_p7_c1",
+            "page": 7,
+            "section": "5 · वैज्ञानिक करियर के पहले कदम",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9683,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.011111,
+            "snippet": "कलाम ने अपना व्यावसायिक जीवन भारत के रक्षा प्रतिष्ठान के अंग, तकनीकी विकास एवं उत्पादन निदेशालय में आरंभ किया, और कुछ समय बैंगलोर के हिंदुस्तान एयरोनॉटिक्स..."
+          },
+          {
+            "chunk_id": "doc_p3_c1",
+            "page": 3,
+            "section": "1 · ए.पी.जे. अब्दुल कलाम कौन थे?",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9531,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.010937,
+            "snippet": "अवुल पाकिर जैनुलाब्दीन अब्दुल कलाम (1931–2015) एक भारतीय एयरोस्पेस वैज्ञानिक तथा भारत के ग्यारहवें राष्ट्रपति थे। करोड़ों लोगों के लिए वे केवल \"भारत के मिसाइल..."
+          },
+          {
+            "chunk_id": "doc_p6_c2",
+            "page": 6,
+            "section": "4 · कॉलेज के वर्ष और उड़ान का आकर्षण",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9385,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.010769,
+            "snippet": "उन्होंने वैमानिकी इंजीनियरि ंग पढ़ने के लिए चेन्नई के मद्रास इंस्टीट्यूट ऑफ टेक्नोलॉजी (एमआईटी) में प्रवेश लिया। धन की कमी थी, और उनकी बहन ने उनकी फीस भरने में..."
+          },
+          {
+            "chunk_id": "doc_p20_c3",
+            "page": 20,
+            "section": "18 · संस्थाओं एवं शब्दों की शब्दावली",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "table",
+            "score": 0.9242,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.010606,
+            "snippet": "पारिभाषिक शब्द: एचएएल (HAL)। अर्थ/परिभाषा: हिंदुस्तान एयरोनॉटिक्स लिमिटेड, कलाम का एक आरंभिक कार्यस्थल।। पारिभाषिक शब्द: भारत रत्न। अर्थ/परिभाषा: भारत का..."
+          }
+        ],
+        "grounding_report": {
+          "is_grounded": true,
+          "is_refusal": false,
+          "cited_chunk_ids": [
+            "doc_p6_c2"
+          ],
+          "valid_citations": [
+            "doc_p6_c2"
+          ],
+          "invented_citations": [],
+          "citation_mismatches": [],
+          "unsupported_facts": [],
+          "grounding_score": 1.0,
+          "notes": "All cited chunks and key factual claims verified against retrieved context."
+        },
+        "latency_ms": 338.94
+      },
+      {
+        "id": 5,
+        "query": "Who co-wrote the autobiography, and in what year was it published?",
+        "lang": "English",
+        "category": "mandatory",
+        "answer": "Dr. Kalam's autobiography 'Wings of Fire' was co-written with Arun Tiwari and published in the year 1999 [doc_p3_c3].",
+        "is_grounded": true,
+        "is_refusal": false,
+        "correctness_score": 1.0,
+        "matched_key_terms": [
+          "Arun Tiwari",
+          "1999",
+          "Wings of Fire"
+        ],
+        "missing_key_terms": [],
+        "faithfulness_score": 1.0,
+        "citation_accuracy": 1.0,
+        "context_citation_precision": 1.0,
+        "is_relevant": true,
+        "citations": [
+          {
+            "chunk_id": "doc_p3_c3",
+            "page": 3,
+            "section": "1 · ए.पी.जे. अब्दुल कलाम कौन थे?",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 1.0,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.011475,
+            "snippet": "उन्होंने लगभग चार दशक भारत के अंतरिक्ष एवं रक्षा अनुसंधान के केंद्र में बिताए — पहले भारतीय अंतरिक्ष अनुसंधान संगठन (इसरो) में और फिर रक्षा अनुसंधान एवं विकास..."
+          },
+          {
+            "chunk_id": "doc_p1_c1",
+            "page": 1,
+            "section": "शीर्षक पृष्ठ",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9839,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.01129,
+            "snippet": "एक अध्ययन एवं संदर्भ सहायिका ✺ अग्नि की उड़ान ए.पी.जे. अब्दुल कलाम का जीवन, कार्य और विचार अवुल पाकिर जैनुलाब्दीन अब्दुल कलाम की आत्मकथा Wings of Fire (1999)..."
+          },
+          {
+            "chunk_id": "doc_p17_c3",
+            "page": 17,
+            "section": "15 · जीवन-रेखा (टाइमलाइन)",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "table",
+            "score": 0.9683,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.011111,
+            "snippet": "वर्ष: 1999। जीवन पड़ाव/घटना: अग्नि की उड़ान प्रकाशित (अरुण तिवारी के साथ)।। वर्ष: 2002। जीवन पड़ाव/घटना: भारत के ग्यारहवें राष्ट्रपति चुने गए।। वर्ष: 2007।..."
+          },
+          {
+            "chunk_id": "doc_p3_c4",
+            "page": 3,
+            "section": "1 · ए.पी.जे. अब्दुल कलाम कौन थे?",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9385,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.010769,
+            "snippet": "यह उनके जीवन को 1990 के दशक के अंत तक चित्रित करती है, और इसका भावनात्मक केंद्र भारत के स्वदेशी उपग्रह प्रक्षेपण यान तथा निर्देशित मिसाइल बनाने के प्रयास की..."
+          },
+          {
+            "chunk_id": "doc_p1_c2",
+            "page": 1,
+            "section": "शीर्षक पृष्ठ",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9242,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.010606,
+            "snippet": "यह पुस्तक के मूल पाठ का पुनरुत्पादन नहीं है; इसे RAG (रिट्रीवल- ऑगमेंटेड जनरेशन) अभ्यास हेतु एक स्वतंत्र हिंदी संदर्भ दस्तावेज़ के रूप में तैयार किया गया है।..."
+          }
+        ],
+        "grounding_report": {
+          "is_grounded": true,
+          "is_refusal": false,
+          "cited_chunk_ids": [
+            "doc_p3_c3"
+          ],
+          "valid_citations": [
+            "doc_p3_c3"
+          ],
+          "invented_citations": [],
+          "citation_mismatches": [],
+          "unsupported_facts": [],
+          "grounding_score": 1.0,
+          "notes": "All cited chunks and key factual claims verified against retrieved context."
+        },
+        "latency_ms": 890.22
+      },
+      {
+        "id": 6,
+        "query": "How and where did Kalam die in 2015?",
+        "lang": "English",
+        "category": "mandatory",
+        "answer": "Dr. Kalam passed away on 27 July 2015 in Shillong after collapsing while delivering a lecture at the Indian Institute of Management (IIM) Shillong [doc_p15_c3]।",
+        "is_grounded": true,
+        "is_refusal": false,
+        "correctness_score": 1.0,
+        "matched_key_terms": [
+          "27 July 2015",
+          "Shillong"
+        ],
+        "missing_key_terms": [],
+        "faithfulness_score": 1.0,
+        "citation_accuracy": 1.0,
+        "context_citation_precision": 0.6,
+        "is_relevant": true,
+        "citations": [
+          {
+            "chunk_id": "doc_p22_c2",
+            "page": 22,
+            "section": "20 · त्वरित तथ्य-सारांश",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "table",
+            "score": 1.0,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.016129,
+            "snippet": "तथ्य क्षेत्र: पूरा नाम। विवरण: अवुल पाकिर जैनुलाब्दीन अब्दुल कलाम। तथ्य क्षेत्र: जन्म। विवरण: 15 अक्टूबर 1931, रामेश्वरम, तमिलनाडु। तथ्य क्षेत्र: निधन। विवरण:..."
+          },
+          {
+            "chunk_id": "doc_p15_c3",
+            "page": 15,
+            "section": "13 · अंतिम क्षण तक शिक्षक (2007–2015)",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9891,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.015953,
+            "snippet": "27 जुलाई 2015 को, कलाम शिलांग के भारतीय प्रबंधन संस्थान में विद्यार् थियों को व्याख्यान देते समय गिर पड़े और कुछ ही देर बाद 83 वर्ष की आयु में उनका निधन हो..."
+          },
+          {
+            "chunk_id": "doc_p3_c1",
+            "page": 3,
+            "section": "1 · ए.पी.जे. अब्दुल कलाम कौन थे?",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.983,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.015856,
+            "snippet": "अवुल पाकिर जैनुलाब्दीन अब्दुल कलाम (1931–2015) एक भारतीय एयरोस्पेस वैज्ञानिक तथा भारत के ग्यारहवें राष्ट्रपति थे। करोड़ों लोगों के लिए वे केवल \"भारत के मिसाइल..."
+          },
+          {
+            "chunk_id": "doc_p17_c3",
+            "page": 17,
+            "section": "15 · जीवन-रेखा (टाइमलाइन)",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "table",
+            "score": 0.9152,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.014762,
+            "snippet": "वर्ष: 1999। जीवन पड़ाव/घटना: अग्नि की उड़ान प्रकाशित (अरुण तिवारी के साथ)।। वर्ष: 2002। जीवन पड़ाव/घटना: भारत के ग्यारहवें राष्ट्रपति चुने गए।। वर्ष: 2007।..."
+          },
+          {
+            "chunk_id": "doc_p21_c3",
+            "page": 21,
+            "section": "19 · विचार एवं बोध-प्रश्न",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.8816,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.014219,
+            "snippet": "11. कलाम का निधन 2015 में कहाँ और कैसे हुआ? 12. कलाम को भारत रत्न किस वर्ष प्राप्त हुआ? मूल्यांकनकर्ता हेतु सुझाव: प्रश्न 4, 6, 8, 11 और 12 के सटीक तथ्यात्मक..."
+          }
+        ],
+        "grounding_report": {
+          "is_grounded": true,
+          "is_refusal": false,
+          "cited_chunk_ids": [
+            "doc_p15_c3"
+          ],
+          "valid_citations": [
+            "doc_p15_c3"
+          ],
+          "invented_citations": [],
+          "citation_mismatches": [],
+          "unsupported_facts": [],
+          "grounding_score": 1.0,
+          "notes": "All cited chunks and key factual claims verified against retrieved context."
+        },
+        "latency_ms": 642.36
+      },
+      {
+        "id": 7,
+        "query": "पृथ्वी और अग्नि मिसाइल किस कार्यक्रम के तहत विकसित की गईं?",
+        "lang": "Hindi",
+        "category": "additional",
+        "answer": "पृथ्वी और अग्नि मिसाइलें 1980 के दशक के आरंभ में शुरू किए गए एकीकृत निर्देशित मिसाइल विकास कार्यक्रम (IGMDP) के तहत विकसित की गईं [doc_p9_c1]।",
+        "is_grounded": true,
+        "is_refusal": false,
+        "correctness_score": 1.0,
+        "matched_key_terms": [
+          "IGMDP",
+          "निर्देशित मिसाइल",
+          "1980"
+        ],
+        "missing_key_terms": [],
+        "faithfulness_score": 1.0,
+        "citation_accuracy": 1.0,
+        "context_citation_precision": 0.8,
+        "is_relevant": true,
+        "citations": [
+          {
+            "chunk_id": "doc_p22_c3",
+            "page": 22,
+            "section": "20 · त्वरित तथ्य-सारांश",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "table",
+            "score": 1.0,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.015836,
+            "snippet": "तथ्य क्षेत्र: प्रमुख संस्थाएँ। विवरण: इसरो, डीआरडीओ। तथ्य क्षेत्र: प्रमुख परियोजना (इसरो)। विवरण: SLV-III → रोहिणी उपग्रह, 1980। तथ्य क्षेत्र: प्रमुख कार्यक्रम..."
+          },
+          {
+            "chunk_id": "doc_p9_c1",
+            "page": 9,
+            "section": "7 · निर्देशित मिसाइल कार्यक्रम",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9821,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.015553,
+            "snippet": "1980 के दशक के आरंभ में कलाम रक्षा अनुसंधान एवं विकास संगठन (डीआरडीओ) में एकीकृत निर्देशित मिसाइल विकास कार्यक्रम (IGMDP) का नेतृत्व करने आए। लक्ष्य..."
+          },
+          {
+            "chunk_id": "doc_p9_c3",
+            "page": 9,
+            "section": "7 · निर्देशित मिसाइल कार्यक्रम",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9508,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.015056,
+            "snippet": "वे साझा स्वामित्व पर बल देते थे: जब प्रणालियाँ काम करतीं, तो उन्हें पूरी टीम ने बनाया होता; और जब न करतीं, तो नेता पहले स्वयं की ओर देखते। मिसाइल कार्यक्रम..."
+          },
+          {
+            "chunk_id": "doc_p21_c2",
+            "page": 21,
+            "section": "19 · विचार एवं बोध-प्रश्न",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9317,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.014754,
+            "snippet": "5. सतीश धवन ने 1979 की प्रक्षेपण विफलता को कैसे संभाला? 6. IGMDP के अंतर्गत विकसित तीन मिसाइलों के नाम बताइए और उनके अर्थ। 7. पोखरण-II क्या था, और कलाम ने..."
+          },
+          {
+            "chunk_id": "doc_p20_c2",
+            "page": 20,
+            "section": "18 · संस्थाओं एवं शब्दों की शब्दावली",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "table",
+            "score": 0.9258,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.01466,
+            "snippet": "पारिभाषिक शब्द: IGMDP। अर्थ/परिभाषा: एकीकृत निर्देशित मिसाइल विकास कार्यक्रम, डीआरडीओ में कलाम के नेतृत्व में।। पारिभाषिक शब्द: रोहिणी। अर्थ/परिभाषा: 1980 में..."
+          }
+        ],
+        "grounding_report": {
+          "is_grounded": true,
+          "is_refusal": false,
+          "cited_chunk_ids": [
+            "doc_p9_c1"
+          ],
+          "valid_citations": [
+            "doc_p9_c1"
+          ],
+          "invented_citations": [],
+          "citation_mismatches": [],
+          "unsupported_facts": [],
+          "grounding_score": 1.0,
+          "notes": "All cited chunks and key factual claims verified against retrieved context."
+        },
+        "latency_ms": 463.08
+      },
+      {
+        "id": 8,
+        "query": "What were the names of Kalam's parents and where did he grow up?",
+        "lang": "English",
+        "category": "additional",
+        "answer": "Dr. Kalam's father was Jainulabdeen and his mother was Ashiamma. He grew up in Rameswaram, Tamil Nadu [doc_p4_c1].",
+        "is_grounded": true,
+        "is_refusal": false,
+        "correctness_score": 1.0,
+        "matched_key_terms": [
+          "Jainulabdeen",
+          "Ashiamma",
+          "Rameswaram"
+        ],
+        "missing_key_terms": [],
+        "faithfulness_score": 1.0,
+        "citation_accuracy": 1.0,
+        "context_citation_precision": 0.4,
+        "is_relevant": true,
+        "citations": [
+          {
+            "chunk_id": "doc_p4_c1",
+            "page": 4,
+            "section": "2 · रामेश्वरम में बचपन",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 1.0,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.011475,
+            "snippet": "कलाम का जन्म 15 अक्टूबर 1931 को तमिलनाडु के दक्षिण-पूर्वी तट के निकट पम्बन द्वीप पर स्थित मंदिर-नगरी रामेश्वरम में हुआ था। उनके पिता जैनुलाब्दीन के पास नावें..."
+          },
+          {
+            "chunk_id": "doc_p4_c2",
+            "page": 4,
+            "section": "2 · रामेश्वरम में बचपन",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9839,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.01129,
+            "snippet": "उनकी माता आशिअम्मा एक बड़े, स्नेहपूर्ण घर को संभालती थीं। परिवार संपन्न नहीं था, और कलाम ने कम उम्र में ही परिश्रम और मितव्ययिता का महत्व सीख लिया। 1930 के दशक..."
+          },
+          {
+            "chunk_id": "doc_p3_c2",
+            "page": 3,
+            "section": "1 · ए.पी.जे. अब्दुल कलाम कौन थे?",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9683,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.011111,
+            "snippet": "कलाम का जीवन एक असंभव-सी यात्रा थी: दक्षिण भारत के एक छोटे-से द्वीपीय कस्बे से, जहाँ बचपन में वे परिवार की मदद के लिए अख़बार बेचते थे, देश के सबसे..."
+          },
+          {
+            "chunk_id": "doc_p5_c1",
+            "page": 5,
+            "section": "3 · प्रारंभिक शिक्षा एवं प्रेरणाएँ",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9531,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.010937,
+            "snippet": "कलाम ने घर से थोड़ी दूर रामनाथपुरम के श्वार्ट्ज़ हायर सेकेंडरी स्कूल में शिक्षा पाई। वे एक औसत-से-अच्छे विद्यार्थी थे जो कठिन परिश्रम से आगे बढ़ते थे, न कि ऐसे..."
+          },
+          {
+            "chunk_id": "doc_p5_c3",
+            "page": 5,
+            "section": "3 · प्रारंभिक शिक्षा एवं प्रेरणाएँ",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9385,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.010769,
+            "snippet": "घर पर, उनके पिता एक भिन्न कि ंतु समान रूप से स्थायी शिक्षा देते थे — कर्तव्य, प्रार्थना और सादगी से जीने के पाठ। एक धर्मपरायण घर और प्रेरक शिक्षकों के इस संयोग..."
+          }
+        ],
+        "grounding_report": {
+          "is_grounded": true,
+          "is_refusal": false,
+          "cited_chunk_ids": [
+            "doc_p4_c1"
+          ],
+          "valid_citations": [
+            "doc_p4_c1"
+          ],
+          "invented_citations": [],
+          "citation_mismatches": [],
+          "unsupported_facts": [],
+          "grounding_score": 1.0,
+          "notes": "All cited chunks and key factual claims verified against retrieved context."
+        },
+        "latency_ms": 320.61
+      },
+      {
+        "id": 9,
+        "query": "विक्रम साराभाई और सतीश धवन ने कलाम के जीवन में क्या भूमिका निभाई?",
+        "lang": "Hindi",
+        "category": "additional",
+        "answer": "विक्रम साराभाई ने कलाम में संभावना देखकर ज़िम्मेदारी सौंपी और मार्गदर्शन दिया [doc_p7_c3]। सतीश धवन ने 1979 में विफलता की जिम्मेदारी स्वयं लेकर नेतृत्व का पाठ सिखाया [doc_p8_c2]।",
+        "is_grounded": true,
+        "is_refusal": false,
+        "correctness_score": 1.0,
+        "matched_key_terms": [
+          "साराभाई",
+          "धवन",
+          "1979",
+          "मार्गदर्शन"
+        ],
+        "missing_key_terms": [],
+        "faithfulness_score": 1.0,
+        "citation_accuracy": 1.0,
+        "context_citation_precision": 1.0,
+        "is_relevant": true,
+        "citations": [
+          {
+            "chunk_id": "doc_p12_c3",
+            "page": 12,
+            "section": "10 · गुरु एवं शिक्षक",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "table",
+            "score": 1.0,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.016237,
+            "snippet": "व्यक्ति/गुरु: सतीश धवन। कलाम के जीवन में भूमिका: इसरो प्रमुख जिन्होंने विफलता आत्मसात की और श्रेय बाँटा — कलाम का नेतृत्व-आदर्श।। व्यक्ति/गुरु: ब्रह्म प्रकाश।..."
+          },
+          {
+            "chunk_id": "doc_p12_c2",
+            "page": 12,
+            "section": "10 · गुरु एवं शिक्षक",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "table",
+            "score": 0.9933,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.016129,
+            "snippet": "व्यक्ति/गुरु: जैनुलाब्दीन (पिता)। कलाम के जीवन में भूमिका: कर्तव्य, आस्था, ईमानदारी और सादगी से जीना सिखाया।। व्यक्ति/गुरु: रेव. आयडुरई सोलोमन। कलाम के जीवन..."
+          },
+          {
+            "chunk_id": "doc_p7_c4",
+            "page": 7,
+            "section": "5 · वैज्ञानिक करियर के पहले कदम",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9521,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.015459,
+            "snippet": "सही गुरु खोजो — साराभाई के विश्वास ने कलाम के विकास को गति दी। काम को बड़े उद्देश्य से जोड़ो — एक आदत जो जीवन भर उनके साथ रही।"
+          },
+          {
+            "chunk_id": "doc_p7_c3",
+            "page": 7,
+            "section": "5 · वैज्ञानिक करियर के पहले कदम",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9453,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.015349,
+            "snippet": "साराभाई ने युवा इंजीनियर में संभावना देखी और उन्हें जल्दी ही ज़िम्मेदारी सौंपी। साराभाई के अधीन काम करते हुए कलाम ने सोचने का एक ऐसा ढंग आत्मसात किया जो..."
+          },
+          {
+            "chunk_id": "doc_p8_c2",
+            "page": 8,
+            "section": "6 · इसरो के वर्ष और SLV-III",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.8745,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.0142,
+            "snippet": "यह रास्ता सहज नहीं था। 1979 में एक आरंभिक प्रक्षेपण प्रयास विफल हो गया जब यान उड़ान भरने के कुछ ही समय बाद समुद्र में गिर गया। कलाम ने उस दिन के बारे में भावुक..."
+          }
+        ],
+        "grounding_report": {
+          "is_grounded": true,
+          "is_refusal": false,
+          "cited_chunk_ids": [
+            "doc_p7_c3",
+            "doc_p8_c2"
+          ],
+          "valid_citations": [
+            "doc_p7_c3",
+            "doc_p8_c2"
+          ],
+          "invented_citations": [],
+          "citation_mismatches": [],
+          "unsupported_facts": [],
+          "grounding_score": 1.0,
+          "notes": "All cited chunks and key factual claims verified against retrieved context."
+        },
+        "latency_ms": 410.17
+      },
+      {
+        "id": 10,
+        "query": "During which years did Kalam serve as the President of India?",
+        "lang": "English",
+        "category": "additional",
+        "answer": "Dr. Kalam served as the 11th President of India from 2002 to 2007, widely acclaimed as the People's President [doc_p14_c1].",
+        "is_grounded": true,
+        "is_refusal": false,
+        "correctness_score": 1.0,
+        "matched_key_terms": [
+          "2002",
+          "2007",
+          "11th President"
+        ],
+        "missing_key_terms": [],
+        "faithfulness_score": 1.0,
+        "citation_accuracy": 1.0,
+        "context_citation_precision": 0.8,
+        "is_relevant": true,
+        "citations": [
+          {
+            "chunk_id": "doc_p14_c1",
+            "page": 14,
+            "section": "12 · जनता के राष्ट्रपति (2002–2007)",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 1.0,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.011475,
+            "snippet": "2002 में, कलाम भारत के ग्यारहवें राष्ट्रपति चुने गए, उसी वर्ष जुलाई में पद ग्रहण किया और 2007 तक सेवा की। यद्यपि राष्ट्रपति का पद अधिकांशतः औपचारिक होता है,..."
+          },
+          {
+            "chunk_id": "doc_p3_c1",
+            "page": 3,
+            "section": "1 · ए.पी.जे. अब्दुल कलाम कौन थे?",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9839,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.01129,
+            "snippet": "अवुल पाकिर जैनुलाब्दीन अब्दुल कलाम (1931–2015) एक भारतीय एयरोस्पेस वैज्ञानिक तथा भारत के ग्यारहवें राष्ट्रपति थे। करोड़ों लोगों के लिए वे केवल \"भारत के मिसाइल..."
+          },
+          {
+            "chunk_id": "doc_p22_c2",
+            "page": 22,
+            "section": "20 · त्वरित तथ्य-सारांश",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "table",
+            "score": 0.9683,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.011111,
+            "snippet": "तथ्य क्षेत्र: पूरा नाम। विवरण: अवुल पाकिर जैनुलाब्दीन अब्दुल कलाम। तथ्य क्षेत्र: जन्म। विवरण: 15 अक्टूबर 1931, रामेश्वरम, तमिलनाडु। तथ्य क्षेत्र: निधन। विवरण:..."
+          },
+          {
+            "chunk_id": "doc_p15_c1",
+            "page": 15,
+            "section": "13 · अंतिम क्षण तक शिक्षक (2007–2015)",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9531,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.010937,
+            "snippet": "2007 में राष्ट्रपति पद छोड़ने के बाद, कलाम उस काम की ओर लौटे जो उन्हें सबसे प्रिय था: शिक्षण। वे भारतीय प्रबंधन संस्थानों सहित कई संस्थानों में अतिथि..."
+          },
+          {
+            "chunk_id": "doc_p3_c2",
+            "page": 3,
+            "section": "1 · ए.पी.जे. अब्दुल कलाम कौन थे?",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9385,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.010769,
+            "snippet": "कलाम का जीवन एक असंभव-सी यात्रा थी: दक्षिण भारत के एक छोटे-से द्वीपीय कस्बे से, जहाँ बचपन में वे परिवार की मदद के लिए अख़बार बेचते थे, देश के सबसे..."
+          }
+        ],
+        "grounding_report": {
+          "is_grounded": true,
+          "is_refusal": false,
+          "cited_chunk_ids": [
+            "doc_p14_c1"
+          ],
+          "valid_citations": [
+            "doc_p14_c1"
+          ],
+          "invented_citations": [],
+          "citation_mismatches": [],
+          "unsupported_facts": [],
+          "grounding_score": 1.0,
+          "notes": "All cited chunks and key factual claims verified against retrieved context."
+        },
+        "latency_ms": 451.93
+      },
+      {
+        "id": 11,
+        "query": "कलाम को 1981 और 1990 में कौन-से नागरिक पुरस्कार मिले?",
+        "lang": "Hindi",
+        "category": "additional",
+        "answer": "कलाम को वर्ष 1981 में पद्म भूषण तथा वर्ष 1990 में पद्म विभूषण नागरिक सम्मान प्राप्त हुए [doc_p16_c2]।",
+        "is_grounded": true,
+        "is_refusal": false,
+        "correctness_score": 1.0,
+        "matched_key_terms": [
+          "पद्म भूषण",
+          "पद्म विभूषण",
+          "1981",
+          "1990"
+        ],
+        "missing_key_terms": [],
+        "faithfulness_score": 1.0,
+        "citation_accuracy": 1.0,
+        "context_citation_precision": 0.4,
+        "is_relevant": true,
+        "citations": [
+          {
+            "chunk_id": "doc_p16_c1",
+            "page": 16,
+            "section": "14 · पुरस्कार एवं सम्मान",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 1.0,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.016314,
+            "snippet": "कलाम को भारत के सर्वोच्च नागरिक सम्मान तथा अनेक अंतरराष्ट्रीय मान्यताएँ प्राप्त हुईं। कुछ प्रमुख: उनके जन्मदिन 15 अक्टूबर को युवा एवं शिक्षा के उत्सव से जोड़ा..."
+          },
+          {
+            "chunk_id": "doc_p16_c2",
+            "page": 16,
+            "section": "14 · पुरस्कार एवं सम्मान",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "table",
+            "score": 0.9935,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.016208,
+            "snippet": "वर्ष: 1981। सम्मान: पद्म भूषण। विवरण: विज्ञान एवं इंजीनियरिंग में योगदान के लिए।। वर्ष: 1990। सम्मान: पद्म विभूषण। विवरण: भारत का दूसरा सर्वोच्च नागरिक..."
+          },
+          {
+            "chunk_id": "doc_p20_c3",
+            "page": 20,
+            "section": "18 · संस्थाओं एवं शब्दों की शब्दावली",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "table",
+            "score": 0.9533,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.015553,
+            "snippet": "पारिभाषिक शब्द: एचएएल (HAL)। अर्थ/परिभाषा: हिंदुस्तान एयरोनॉटिक्स लिमिटेड, कलाम का एक आरंभिक कार्यस्थल।। पारिभाषिक शब्द: भारत रत्न। अर्थ/परिभाषा: भारत का..."
+          },
+          {
+            "chunk_id": "doc_p12_c1",
+            "page": 12,
+            "section": "10 · गुरु एवं शिक्षक",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.8505,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.013875,
+            "snippet": "कलाम अपने जीवन का श्रेय गुरुओं की एक शृंखला को देते थे, और अग्नि की उड़ान कई अर्थों में उन्हीं के प्रति एक श्रद्धांजलि है। इन व्यक्तियों को समझना इस मनुष्य को..."
+          },
+          {
+            "chunk_id": "doc_p14_c1",
+            "page": 14,
+            "section": "12 · जनता के राष्ट्रपति (2002–2007)",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.6501,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.010606,
+            "snippet": "2002 में, कलाम भारत के ग्यारहवें राष्ट्रपति चुने गए, उसी वर्ष जुलाई में पद ग्रहण किया और 2007 तक सेवा की। यद्यपि राष्ट्रपति का पद अधिकांशतः औपचारिक होता है,..."
+          }
+        ],
+        "grounding_report": {
+          "is_grounded": true,
+          "is_refusal": false,
+          "cited_chunk_ids": [
+            "doc_p16_c2"
+          ],
+          "valid_citations": [
+            "doc_p16_c2"
+          ],
+          "invented_citations": [],
+          "citation_mismatches": [],
+          "unsupported_facts": [],
+          "grounding_score": 1.0,
+          "notes": "All cited chunks and key factual claims verified against retrieved context."
+        },
+        "latency_ms": 463.47
+      },
+      {
+        "id": 12,
+        "query": "What was Kalam's core message to youth about dreams?",
+        "lang": "English",
+        "category": "additional",
+        "answer": "Kalam taught youth to dream, as dreams transform into thoughts, and thoughts result in action [doc_p3_c5].",
+        "is_grounded": true,
+        "is_refusal": false,
+        "correctness_score": 1.0,
+        "matched_key_terms": [
+          "dream",
+          "thoughts",
+          "action"
+        ],
+        "missing_key_terms": [],
+        "faithfulness_score": 1.0,
+        "citation_accuracy": 1.0,
+        "context_citation_precision": 0.6,
+        "is_relevant": true,
+        "citations": [
+          {
+            "chunk_id": "doc_p3_c5",
+            "page": 3,
+            "section": "1 · ए.पी.जे. अब्दुल कलाम कौन थे?",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 1.0,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.011475,
+            "snippet": "कलाम प्रायः युवाओं से कहते थे — \"सपने देखो, सपने देखो, सपने देखो\", क्योंकि सपने विचारों में और विचार कर्म में बदल जाते हैं। यह सहायिका उनके जीवन के पड़ावों,..."
+          },
+          {
+            "chunk_id": "doc_p15_c2",
+            "page": 15,
+            "section": "13 · अंतिम क्षण तक शिक्षक (2007–2015)",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9839,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.01129,
+            "snippet": "वे लिखते रहे और राष्ट्रीय विकास के लिए अपनी दृष्टि का प्रचार करते रहे, पुस्तकों, व्याख्यानों तथा विद्यार् थियों के प्रश्नों का उत्तर देने की सच्ची तत्परता के..."
+          },
+          {
+            "chunk_id": "doc_p18_c3",
+            "page": 18,
+            "section": "16 · कलाम के जीवन-मूल्य",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9683,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.011111,
+            "snippet": "सादगी बनाए रखो। कलाम ने सादगी से जीवन जिया और जो था उसका बहुत कुछ दान कर दिया। विद्यार् थियों को उनकी सलाह स्पष्ट और आशापूर्ण दोनों थी: ऊ ँचा लक्ष्य रखो, और ऊ..."
+          },
+          {
+            "chunk_id": "doc_p19_c3",
+            "page": 19,
+            "section": "17 · विरासत एवं प्रभाव",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9531,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.010937,
+            "snippet": "संभवतः उनका सबसे गहरा प्रभाव युवाओं पर है। अग्नि की उड़ान तथा अपने असंख्य व्याख्यानों के माध्यम से, उन्होंने करोड़ों विद्यार् थियों को यह विश्वास दिलाया कि..."
+          },
+          {
+            "chunk_id": "doc_p3_c2",
+            "page": 3,
+            "section": "1 · ए.पी.जे. अब्दुल कलाम कौन थे?",
+            "source_doc": "Agni_Ki_Udaan_Adhyayan_Sahayika_Hindi.pdf",
+            "content_type": "narrative",
+            "score": 0.9385,
+            "score_type": "hybrid_rrf",
+            "raw_rrf_score": 0.010769,
+            "snippet": "कलाम का जीवन एक असंभव-सी यात्रा थी: दक्षिण भारत के एक छोटे-से द्वीपीय कस्बे से, जहाँ बचपन में वे परिवार की मदद के लिए अख़बार बेचते थे, देश के सबसे..."
+          }
+        ],
+        "grounding_report": {
+          "is_grounded": true,
+          "is_refusal": false,
+          "cited_chunk_ids": [
+            "doc_p3_c5"
+          ],
+          "valid_citations": [
+            "doc_p3_c5"
+          ],
+          "invented_citations": [],
+          "citation_mismatches": [],
+          "unsupported_facts": [],
+          "grounding_score": 1.0,
+          "notes": "All cited chunks and key factual claims verified against retrieved context."
+        },
+        "latency_ms": 378.58
+      }
+    ]
+  },
+  "unanswerable": {
+    "total_unanswerable_queries": 4,
+    "refusal_rate": 1.0,
+    "zero_invented_citation_rate": 1.0,
+    "queries": [
+      {
+        "id": 13,
+        "query": "What was Dr. Kalam's favorite traditional Indian recipe to cook on Sunday afternoons?",
+        "lang": "English",
+        "answer": "The provided context does not contain sufficient information to answer this question.",
+        "is_refusal": true,
+        "is_grounded": true,
+        "citations_count": 5,
+        "unverified_warning_triggered": false
+      },
+      {
+        "id": 14,
+        "query": "कलाम ने किस वर्ष मंगल ग्रह (Mars) पर भारतीय अंतरिक्ष यात्रियों को भेजने के मानव मिशन का नेतृत्व किया था?",
+        "lang": "Hindi",
+        "answer": "प्रदान किए गए संदर्भ में इस प्रश्न का उत्तर उपलब्ध नहीं है।",
+        "is_refusal": true,
+        "is_grounded": true,
+        "citations_count": 5,
+        "unverified_warning_triggered": false
+      },
+      {
+        "id": 15,
+        "query": "What are the names of Dr. Kalam's children and which universities did they graduate from?",
+        "lang": "English",
+        "answer": "The provided context does not contain sufficient information to answer this question.",
+        "is_refusal": true,
+        "is_grounded": true,
+        "citations_count": 5,
+        "unverified_warning_triggered": false
+      },
+      {
+        "id": 16,
+        "query": "कलाम ने वर्ष 2040 के लिए भारत के संविधान में किन अनुच्छेदों को संशोधित करने की आधिकारिक सिफारिश की थी?",
+        "lang": "Hindi",
+        "answer": "प्रदान किए गए संदर्भ में इस प्रश्न का उत्तर उपलब्ध नहीं है।",
+        "is_refusal": true,
+        "is_grounded": true,
+        "citations_count": 5,
+        "unverified_warning_triggered": false
+      }
+    ]
+  },
+  "grounding_verifier": {
+    "metrics": {
+      "total": 10,
+      "tp": 6,
+      "tn": 4,
+      "fp": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "cases": [
+      {
+        "id": "adv_01_fully_grounded_hi",
+        "desc": "Valid Hindi factual statement with valid citation",
+        "expected_grounded": true,
+        "predicted_grounded": true,
+        "is_refusal": false,
+        "grounding_score": 1.0,
+        "invented_citations": [],
+        "unsupported_facts": [],
+        "citation_mismatches": [],
+        "notes": "All cited chunks and key factual claims verified against retrieved context."
+      },
+      {
+        "id": "adv_02_fully_grounded_en",
+        "desc": "Valid English factual statement with valid citation",
+        "expected_grounded": true,
+        "predicted_grounded": true,
+        "is_refusal": false,
+        "grounding_score": 1.0,
+        "invented_citations": [],
+        "unsupported_facts": [],
+        "citation_mismatches": [],
+        "notes": "All cited chunks and key factual claims verified against retrieved context."
+      },
+      {
+        "id": "adv_03_invented_chunk_id",
+        "desc": "Answer cites a fake non-existent chunk ID [doc_fake_chunk_99]",
+        "expected_grounded": false,
+        "predicted_grounded": false,
+        "is_refusal": false,
+        "grounding_score": 0.6,
+        "invented_citations": [
+          "doc_fake_chunk_99"
+        ],
+        "unsupported_facts": [],
+        "citation_mismatches": [],
+        "notes": "Invented citation IDs detected: ['doc_fake_chunk_99']"
+      },
+      {
+        "id": "adv_04_wrong_year_in_sentence",
+        "desc": "Citation points to doc_p16_c1, but sentence claims Bharat Ratna in 1980 instead of 1997",
+        "expected_grounded": false,
+        "predicted_grounded": false,
+        "is_refusal": false,
+        "grounding_score": 0.39999999999999997,
+        "invented_citations": [],
+        "unsupported_facts": [
+          "1980"
+        ],
+        "citation_mismatches": [
+          "Chunk 'doc_p16_c1' does not contain tokens ['1980'] from sentence: \"कलाम को वर्ष 1980 में भारत रत्न पुरस्कार प्रदान किया गया था [doc_p16_c1]...\""
+        ],
+        "notes": "Factual tokens absent from all context: ['1980']; Citation attribution mismatches: 1 instances"
+      },
+      {
+        "id": "adv_05_unsupported_acronym_award",
+        "desc": "Answer claims Kalam won a Nobel Prize (NOBEL acronym / ungrounded)",
+        "expected_grounded": false,
+        "predicted_grounded": false,
+        "is_refusal": false,
+        "grounding_score": 0.39999999999999997,
+        "invented_citations": [],
+        "unsupported_facts": [
+          "2005",
+          "NOBEL"
+        ],
+        "citation_mismatches": [
+          "Chunk 'doc_p6_c1' does not contain tokens ['2005', 'NOBEL'] from sentence: \"Kalam was awarded the NOBEL prize in physics during 2005 [doc_p6_c1]...\""
+        ],
+        "notes": "Factual tokens absent from all context: ['2005', 'NOBEL']; Citation attribution mismatches: 1 instances"
+      },
+      {
+        "id": "adv_06_unsupported_future_year",
+        "desc": "Answer introduces year 2045 not present in context",
+        "expected_grounded": false,
+        "predicted_grounded": false,
+        "is_refusal": false,
+        "grounding_score": 0.39999999999999997,
+        "invented_citations": [],
+        "unsupported_facts": [
+          "2045"
+        ],
+        "citation_mismatches": [
+          "Chunk 'doc_p8_c3' does not contain tokens ['2045'] from sentence: \"कलाम ने वर्ष 2045 के लिए नया अंतरिक्ष विज़न तैयार किया था [doc_p8_c3]...\""
+        ],
+        "notes": "Factual tokens absent from all context: ['2045']; Citation attribution mismatches: 1 instances"
+      },
+      {
+        "id": "adv_07_correct_refusal_hi",
+        "desc": "Explicit refusal in Hindi due to lack of evidence",
+        "expected_grounded": true,
+        "predicted_grounded": true,
+        "is_refusal": true,
+        "grounding_score": 1.0,
+        "invented_citations": [],
+        "unsupported_facts": [],
+        "citation_mismatches": [],
+        "notes": "Response correctly identifies insufficient evidence in context."
+      },
+      {
+        "id": "adv_08_correct_refusal_en",
+        "desc": "Explicit refusal in English due to lack of evidence",
+        "expected_grounded": true,
+        "predicted_grounded": true,
+        "is_refusal": true,
+        "grounding_score": 1.0,
+        "invented_citations": [],
+        "unsupported_facts": [],
+        "citation_mismatches": [],
+        "notes": "Response correctly identifies insufficient evidence in context."
+      },
+      {
+        "id": "adv_09_empty_answer",
+        "desc": "Empty response string should not be considered grounded",
+        "expected_grounded": false,
+        "predicted_grounded": false,
+        "is_refusal": false,
+        "grounding_score": 0.0,
+        "invented_citations": [],
+        "unsupported_facts": [],
+        "citation_mismatches": [],
+        "notes": "Empty answer received."
+      },
+      {
+        "id": "adv_10_wrong_chunk_attribution",
+        "desc": "Sentence discussing 1998 Pokhran test cites doc_p4_c1 (childhood page)",
+        "expected_grounded": false,
+        "predicted_grounded": false,
+        "is_refusal": false,
+        "grounding_score": 0.7,
+        "invented_citations": [],
+        "unsupported_facts": [],
+        "citation_mismatches": [
+          "Chunk 'doc_p4_c1' does not contain tokens ['II', '1998'] from sentence: \"मई 1998 में पोखरण-II परमाणु परीक्षण आयोजित किए गए [doc_p4_c1]...\""
+        ],
+        "notes": "Citation attribution mismatches: 1 instances"
+      }
+    ]
+  },
+  "latency_profile": {
+    "dense": {
+      "cold_ms": 460.2,
+      "warm_ms": 410.85
+    },
+    "bm25": {
+      "cold_ms": 0.72,
+      "warm_ms": 0.91
+    },
+    "hybrid": {
+      "cold_ms": 741.49,
+      "warm_ms": 483.65
+    },
+    "end_to_end": {
+      "cold_ms": 518.29,
+      "warm_ms": 423.57
+    }
+  }
+}

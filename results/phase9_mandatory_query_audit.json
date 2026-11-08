@@ -1,0 +1,170 @@
+[
+  {
+    "qid": "Q1",
+    "lang": "hi",
+    "status": "PASS",
+    "expected_chunk": "doc_p8_c3",
+    "expected_page": 8,
+    "top1_chunk": "doc_p8_c3",
+    "top1_page": 8,
+    "top1_rrf_score": 0.0163,
+    "top5_pages": [
+      8,
+      17,
+      20,
+      8,
+      21
+    ],
+    "top5_chunks": [
+      "doc_p8_c3",
+      "doc_p17_c2",
+      "doc_p20_c2",
+      "doc_p8_c4",
+      "doc_p21_c1"
+    ],
+    "page_hit_at5": true,
+    "chunk_hit_at1": true,
+    "chunk_hit_at5": true,
+    "latency_ms": 874.2
+  },
+  {
+    "qid": "Q2",
+    "lang": "hi",
+    "status": "PASS",
+    "expected_chunk": "doc_p16_c2",
+    "expected_page": 16,
+    "top1_chunk": "doc_p16_c1",
+    "top1_page": 16,
+    "top1_rrf_score": 0.0157,
+    "top5_pages": [
+      16,
+      20,
+      16,
+      4,
+      14
+    ],
+    "top5_chunks": [
+      "doc_p16_c1",
+      "doc_p20_c3",
+      "doc_p16_c2",
+      "doc_p4_c1",
+      "doc_p14_c1"
+    ],
+    "page_hit_at5": true,
+    "chunk_hit_at1": false,
+    "chunk_hit_at5": true,
+    "latency_ms": 578.9
+  },
+  {
+    "qid": "Q3",
+    "lang": "hi",
+    "status": "PASS",
+    "expected_chunk": "doc_p10_c1",
+    "expected_page": 10,
+    "top1_chunk": "doc_p10_c1",
+    "top1_page": 10,
+    "top1_rrf_score": 0.0163,
+    "top5_pages": [
+      10,
+      20,
+      8,
+      2,
+      21
+    ],
+    "top5_chunks": [
+      "doc_p10_c1",
+      "doc_p20_c2",
+      "doc_p8_c4",
+      "doc_p2_c1",
+      "doc_p21_c2"
+    ],
+    "page_hit_at5": true,
+    "chunk_hit_at1": true,
+    "chunk_hit_at5": true,
+    "latency_ms": 373.1
+  },
+  {
+    "qid": "Q4",
+    "lang": "en",
+    "status": "PASS",
+    "expected_chunk": "doc_p6_c2",
+    "expected_page": 6,
+    "top1_chunk": "doc_p6_c1",
+    "top1_page": 6,
+    "top1_rrf_score": 0.0115,
+    "top5_pages": [
+      6,
+      7,
+      3,
+      6,
+      20
+    ],
+    "top5_chunks": [
+      "doc_p6_c1",
+      "doc_p7_c1",
+      "doc_p3_c1",
+      "doc_p6_c2",
+      "doc_p20_c3"
+    ],
+    "page_hit_at5": true,
+    "chunk_hit_at1": false,
+    "chunk_hit_at5": true,
+    "latency_ms": 342.7
+  },
+  {
+    "qid": "Q5",
+    "lang": "en",
+    "status": "PASS",
+    "expected_chunk": "doc_p3_c3",
+    "expected_page": 3,
+    "top1_chunk": "doc_p3_c3",
+    "top1_page": 3,
+    "top1_rrf_score": 0.0115,
+    "top5_pages": [
+      3,
+      1,
+      17,
+      3,
+      1
+    ],
+    "top5_chunks": [
+      "doc_p3_c3",
+      "doc_p1_c1",
+      "doc_p17_c3",
+      "doc_p3_c4",
+      "doc_p1_c2"
+    ],
+    "page_hit_at5": true,
+    "chunk_hit_at1": true,
+    "chunk_hit_at5": true,
+    "latency_ms": 457.0
+  },
+  {
+    "qid": "Q6",
+    "lang": "en",
+    "status": "PASS",
+    "expected_chunk": "doc_p15_c3",
+    "expected_page": 15,
+    "top1_chunk": "doc_p22_c2",
+    "top1_page": 22,
+    "top1_rrf_score": 0.0161,
+    "top5_pages": [
+      22,
+      15,
+      3,
+      17,
+      21
+    ],
+    "top5_chunks": [
+      "doc_p22_c2",
+      "doc_p15_c3",
+      "doc_p3_c1",
+      "doc_p17_c3",
+      "doc_p21_c3"
+    ],
+    "page_hit_at5": true,
+    "chunk_hit_at1": false,
+    "chunk_hit_at5": true,
+    "latency_ms": 337.3
+  }
+]
