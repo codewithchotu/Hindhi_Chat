@@ -128,8 +128,8 @@ The **Cross-Lingual Hindi RAG Engine** solves these challenges end-to-end. Users
 
 ### Step 1: Clone Repository & Virtual Environment
 ```bash
-git clone https://github.com/owais/hindi-rag-engine.git
-cd hindi-rag-engine
+git clone https://github.com/codewithchotu/Hindhi_Chat.git
+cd Hindhi_Chat
 
 # Create and activate Python virtual environment
 python -m venv .venv
